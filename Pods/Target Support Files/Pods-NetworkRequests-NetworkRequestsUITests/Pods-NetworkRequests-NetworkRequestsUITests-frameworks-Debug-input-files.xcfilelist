@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-NetworkRequests-NetworkRequestsUITests/Pods-NetworkRequests-NetworkRequestsUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/SBTUITestTunnelCommon/SBTUITestTunnelCommon.framework
+${BUILT_PRODUCTS_DIR}/SBTUITestTunnelServer/SBTUITestTunnelServer.framework
+${BUILT_PRODUCTS_DIR}/SBTUITestTunnelClient/SBTUITestTunnelClient.framework
