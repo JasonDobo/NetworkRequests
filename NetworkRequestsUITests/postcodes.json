@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "result": {
+    "postcode": "TEST CASE",
+    "quality": 1,
+    "eastings": 561073,
+    "northings": 98029,
+    "country": "England",
+    "nhs_ha": "South East Coast",
+    "longitude": 0.282383,
+    "latitude": 50.759506,
+    "european_electoral_region": "South East",
+    "primary_care_trust": "East Sussex Downs and Weald",
+    "region": "South East",
+    "lsoa": "Eastbourne 011C",
+    "msoa": "Eastbourne 011",
+    "incode": "7AE",
+    "outcode": "BN20",
+    "parliamentary_constituency": "Eastbourne",
+    "admin_district": "Eastbourne",
+    "parish": "Eastbourne, unparished area",
+    "admin_county": "East Sussex",
+    "admin_ward": "Meads",
+    "ced": "Meads",
+    "ccg": "NHS Eastbourne, Hailsham and Seaford",
+    "nuts": "East Sussex CC",
+    "codes": {
+      "admin_district": "E07000061",
+      "admin_county": "E10000011",
+      "admin_ward": "E05011577",
+      "parish": "E43000055",
+      "parliamentary_constituency": "E14000684",
+      "ccg": "E38000055",
+      "ccg_id": "09F",
+      "ced": "E58000377",
+      "nuts": "UKJ22"
+    }
+  }
+}

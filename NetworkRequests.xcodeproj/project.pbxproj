@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		15449A2623EDA85E00DE3296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15449A2423EDA85E00DE3296 /* LaunchScreen.storyboard */; };
 		15449A3123EDA85E00DE3296 /* NetworkRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15449A3023EDA85E00DE3296 /* NetworkRequestsTests.swift */; };
 		15449A3C23EDA85E00DE3296 /* NetworkRequestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15449A3B23EDA85E00DE3296 /* NetworkRequestsUITests.swift */; };
+		15C23F9523F159A90038EFC6 /* postcodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C23F9423F159A90038EFC6 /* postcodes.json */; };
 		5E52B93CE4D8AC2C7DDC680C /* Pods_NetworkRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8163A219262CE175E403E440 /* Pods_NetworkRequests.framework */; };
 		C85D2A5C61F405FFE1A15C82 /* Pods_NetworkRequests_NetworkRequestsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0A2574E72A54486ED9BE5 /* Pods_NetworkRequests_NetworkRequestsUITests.framework */; };
 		FE63F6D996DE633D78146CC7 /* Pods_NetworkRequestsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF551D440CEA069C9D4CAE /* Pods_NetworkRequestsTests.framework */; };
@@ -53,6 +54,7 @@
 		15449A3723EDA85E00DE3296 /* NetworkRequestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRequestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15449A3B23EDA85E00DE3296 /* NetworkRequestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestsUITests.swift; sourceTree = "<group>"; };
 		15449A3D23EDA85E00DE3296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C23F9423F159A90038EFC6 /* postcodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postcodes.json; sourceTree = "<group>"; };
 		1981EBBF5DA59DA3AFB791BB /* Pods-NetworkRequestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestsTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkRequestsTests/Pods-NetworkRequestsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FC0A2574E72A54486ED9BE5 /* Pods_NetworkRequests_NetworkRequestsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkRequests_NetworkRequestsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DF551D440CEA069C9D4CAE /* Pods_NetworkRequestsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkRequestsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				1981EBBF5DA59DA3AFB791BB /* Pods-NetworkRequestsTests.debug.xcconfig */,
 				0C51D6A29B6153E57A1A36B8 /* Pods-NetworkRequestsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,6 +174,7 @@
 			children = (
 				15449A3B23EDA85E00DE3296 /* NetworkRequestsUITests.swift */,
 				15449A3D23EDA85E00DE3296 /* Info.plist */,
+				15C23F9423F159A90038EFC6 /* postcodes.json */,
 			);
 			path = NetworkRequestsUITests;
 			sourceTree = "<group>";
@@ -304,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C23F9523F159A90038EFC6 /* postcodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
