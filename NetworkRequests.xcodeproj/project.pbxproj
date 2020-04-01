@@ -646,7 +646,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1981EBBF5DA59DA3AFB791BB /* Pods-NetworkRequestsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B57YPS44XB;
@@ -669,7 +668,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C51D6A29B6153E57A1A36B8 /* Pods-NetworkRequestsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B57YPS44XB;
@@ -692,7 +690,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A18DD4F3A5B7E7EFD18B94ED /* Pods-NetworkRequests-NetworkRequestsUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B57YPS44XB;
 				INFOPLIST_FILE = NetworkRequestsUITests/Info.plist;
@@ -713,7 +710,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6656A1D57372BEE1CC02000F /* Pods-NetworkRequests-NetworkRequestsUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B57YPS44XB;
 				INFOPLIST_FILE = NetworkRequestsUITests/Info.plist;
